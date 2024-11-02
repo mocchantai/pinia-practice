@@ -1,12 +1,19 @@
 <script setup lang="ts">
 import { useCounterStore } from '@/stores/counter'
+import { useToggleStore } from '@/stores/toggle'
 
 const counterStore = useCounterStore()
+const toggleStore = useToggleStore()
 </script>
 
 <template>
-  <h1>The Welcome</h1>
+  <h1>1. Counter</h1>
   <button @click="counterStore.increment">Increment</button>
   <button @click="counterStore.decrement">Decrement</button>
   <p>Count: {{ counterStore.count }}</p>
+
+  <h1>2. Toggle</h1>
+  <button @click="toggleStore.toggle">Toggle</button>
+  <p>Is Open: {{ toggleStore.isOpen }}</p>
+
 </template>
