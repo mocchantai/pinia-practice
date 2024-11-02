@@ -1,17 +1,20 @@
 <script setup lang="ts">
-import Counter from './Counter.vue'
-import Toggle from './Toggle.vue'
+import MyCounter from './MyCounter.vue'
+import MyToggle from './MyToggle.vue'
+import MyTodoList from './MyTodoList.vue';
 
 </script>
 
 <template>
   <h1>1. Counter</h1>
-  <Counter/>
+  <MyCounter/>
 
   <h1>2. Toggle</h1>
-  <Toggle/>
+  <MyToggle/>
 
   <h1>3. Todo List</h1>
+  <MyTodoList/>
+
 
 
   <h1>4. Shopping Cart</h1>
