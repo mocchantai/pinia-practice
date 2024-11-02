@@ -16,17 +16,13 @@ import MyTodoList from './MyTodoList.vue';
   <MyTodoList/>
 
 
-
-  <h1>4. Shopping Cart</h1>
-
-
-  <h1>5. User Profile</h1>
+  <h1>4. User Profile</h1>
 
 
-  <h1>6. Dashboard</h1>
+  <h1>5. Dashboard</h1>
 
 
 
-  <h1>7. Real Ti</h1>
+  <h1>6. Real Ti</h1>
 </template>
 
