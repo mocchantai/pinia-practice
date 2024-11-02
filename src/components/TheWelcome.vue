@@ -16,4 +16,19 @@ const toggleStore = useToggleStore()
   <button @click="toggleStore.toggle">Toggle</button>
   <p>Is Open: {{ toggleStore.isOpen }}</p>
 
+
+  <h1>3. Todo List</h1>
+
+
+  <h1>4. Shopping Cart</h1>
+
+
+  <h1>5. User Profile</h1>
+
+
+  <h1>6. Dashboard</h1>
+
+
+
+  <h1>7. Real Ti</h1>
 </template>
